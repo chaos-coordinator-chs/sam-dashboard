@@ -20,6 +20,7 @@ const TODOIST_PROJECT_ID = '6cwpf8hc6mJmFQM7';
 const NOTION_TASKS_DB = '05d28224badc435bb8faf6ac176bdfa0';
 const NOTION_PROJECTS_DB = 'f4b9b358c4b84e839dcb7ca39a58eeb3';
 const NOTION_MEETINGS_DB = 'ffff839aaedd4211aa5086c64f09a19c';
+const SAM_ENTITY_PAGE_ID = 'fc08ac7a-ed7c-4a0f-9330-32b50c4ff148';
 
 async function fetchJSON(url, opts = {}) {
   const res = await fetch(url, opts);
@@ -100,6 +101,7 @@ function prop(page, name, type) {
 async function fetchNotionTasks() {
   const pages = await queryNotion(NOTION_TASKS_DB, {
     and: [
+      { property: 'Entity', relation: { contains: SAM_ENTITY_PAGE_ID } },
       { property: 'Status', select: { does_not_equal: 'Done' } },
       { property: 'Status', select: { does_not_equal: 'Canceled' } },
     ],
@@ -127,6 +129,7 @@ async function fetchNotionTasks() {
 async function fetchNotionProjects() {
   const pages = await queryNotion(NOTION_PROJECTS_DB, {
     and: [
+      { property: 'Entity', relation: { contains: SAM_ENTITY_PAGE_ID } },
       { property: 'Status', select: { does_not_equal: 'Complete' } },
       { property: 'Status', select: { does_not_equal: 'Canceled' } },
     ],
