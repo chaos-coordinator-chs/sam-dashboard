@@ -158,7 +158,6 @@
         const answer = this.processQuery(q);
         typing.querySelector('.ai-msg-text').innerHTML = this.formatAnswer(answer);
         this.scrollToBottom();
-        this.speak(answer);
       }, 400);
     },
 
@@ -183,22 +182,6 @@
     scrollToBottom() {
       const msgs = document.getElementById('aiMessages');
       msgs.scrollTop = msgs.scrollHeight;
-    },
-
-    // ---- TEXT-TO-SPEECH ----
-    speak(text) {
-      if (!('speechSynthesis' in window)) return;
-      // Strip HTML-like formatting for clean speech
-      const clean = text.replace(/<[^>]+>/g, '').replace(/&bull;/g, '').replace(/•/g, '').replace(/\n/g, '. ');
-      const utterance = new SpeechSynthesisUtterance(clean);
-      utterance.rate = 1.05;
-      utterance.pitch = 1;
-      // Try to use a natural-sounding voice
-      const voices = speechSynthesis.getVoices();
-      const preferred = voices.find(v => v.name.includes('Samantha') || v.name.includes('Google US'));
-      if (preferred) utterance.voice = preferred;
-      speechSynthesis.cancel(); // stop any current speech
-      speechSynthesis.speak(utterance);
     },
 
     // ============================================
