@@ -1,20 +1,480 @@
 {
-  "lastUpdated": "2026-03-11T19:56:36.725Z",
+  "lastUpdated": "2026-03-11T20:00:13.916Z",
   "todoist": {
     "sections": [
       {
-        "id": "6fC8vxvrjMW43VH7",
-        "name": "Legal"
+        "id": "6g5r78ppX3x26PcP",
+        "name": "Onboarding Tasks"
+      },
+      {
+        "id": "6g7rqprqJpH9GC4w",
+        "name": "Training"
+      },
+      {
+        "id": "6g7rqw3rr92MX3Ww",
+        "name": "Flows"
       }
     ],
     "tasks": [
+      {
+        "id": "6g7rqjv9cM6MG8Jw",
+        "content": "Create Pitch Sheet for Maintenance",
+        "description": "Steph,\n\nNeed to create a pitch sheet for Maint. Only clients. \n\nBufflao wings needs one.",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g7rqqf6Hw7whw3P",
+        "content": "JobTread",
+        "priority": "p4",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g7rqprqJpH9GC4w",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g7rqxhGVWcHpQMP",
+        "content": "Identify Manual Processes with Potential for Automation/AI",
+        "priority": "p4",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g7rqw3rr92MX3Ww",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g5r7X4W9vWXWG4P",
+        "content": "Cert Course - Prop Mgmt",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g5r7chPv56Xpmvw",
+        "content": "Take Course",
+        "description": "## Game Plan:\n\nWed, Mar 4: Session 1\n\nThurs, Mar 5: Session 2\n\nFri, Mar 6: Session 3\n\nSaturday, Mar 7: Session 4-7\n\nSun, Mar 8: Session 8",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g5r7X4W9vWXWG4P",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g5r7cwf8jHx7qxP",
+        "content": "Pass Course",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g5r7X4W9vWXWG4P",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g7rhhc4jW5QRcxw",
+        "content": "Schedule Course",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g5r7cwf8jHx7qxP",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g5r7fJ5HGqmGjjw",
+        "content": "Provide cert to Stu",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g5r7X4W9vWXWG4P",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g7rqr6fw3p5WxVw",
+        "content": "Revela",
+        "priority": "p4",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g7rqprqJpH9GC4w",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g8Hmrx2c7GpFQ3P",
+        "content": "1 Carriage Lane Trash Bill",
+        "description": "Need to switch the trash bill from going to the old address to the new address:",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g347Wf6mgcXQJxf",
+        "content": "Update Building Labels",
+        "priority": "p4",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g347qrxVCcW4PX7",
+        "content": "Print New Labels",
+        "description": "Once names and rooms have been confirmed, print new door labels.",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "parentId": "6g347Wf6mgcXQJxf",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g7rqrHvjxF9f8HP",
+        "content": "Quickbooks",
+        "priority": "p4",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g7rqprqJpH9GC4w",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g7rvCX6CWq95xfw",
+        "content": "Get Acces to Quo",
+        "priority": "p4",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6cqQm65VFcFmhgqq",
+        "content": "Truck reg - SAM",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g8HVFVCf49fMGJw",
+        "content": "Revela Emails",
+        "description": "Use Claude to scrape emails in Revela and give a summary and action items list for follow up.",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "labels": [],
+        "due": null,
+        "checked": false
+      },
+      {
+        "id": "6g8HXv97QwJgrr4w",
+        "content": "🔴 Reach Jackie Jourdain re: Queensborough leak — 28 days, ASAP",
+        "description": "Hannah tried calling but couldn't reach Jackie. A Queensborough owner reported a leak. Also connects to older roof leak thread (08/14/25). Marked ASAP.",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8HXvCxRvprXJGP",
+        "content": "🔴 Reply to Parkway Associates — past due invoices + 2026 invoice request + check #5147 dispute",
+        "description": "Roxann King asked Stuart to respond to past due invoice emails (02/11). Also disputing invoice #1188 (says paid by check #5147) and requesting a 2026 invoice they can't find on portal.",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8HXvJ78rmPR9Ww",
+        "content": "🔴 Chase Ye Old Fashioned on $5,435.21 February rent",
+        "description": "Largest single outstanding balance. Sent 02/19/26, no reply after 20 days.",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8HXvPHXrGV6qww",
+        "content": "🔴 Respond to Jimmy Bailey — HVAC vs POA payment confusion",
+        "description": "Jimmy says his payment is for individual HVAC maintenance, not the POA. Asking for guidance. 11 days with no reply.",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8HXwmqRJHjpM3w",
+        "content": "URGENT: Reach Jackie Jourdain re Queensborough leak (28 days, ASAP)",
+        "description": "Hannah tried calling but couldn't reach Jackie. Queensborough owner reported a leak. Also connects to older roof leak thread (08/14/25).",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8HXwwW2fwQHGrw",
+        "content": "URGENT: Reply to Parkway Associates - past due invoices + 2026 invoice + check 5147 dispute",
+        "description": "Roxann King asked Stuart to respond to past due invoice emails (02/11). Also disputing invoice 1188 (says paid by check 5147) and requesting a 2026 invoice they can't find on portal.",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8HXx2p9G7fPhCP",
+        "content": "URGENT: Chase Ye Old Fashioned on $5,435.21 February rent",
+        "description": "Largest single outstanding balance. Sent 02/19/26, no reply after 20 days.",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8HXx2qf2p64gRw",
+        "content": "URGENT: Respond to Jimmy Bailey - HVAC vs POA payment confusion",
+        "description": "Jimmy says his payment is for individual HVAC maintenance, not the POA. Asking for guidance. 11 days with no reply.",
+        "priority": "p1",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-11",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc25GcMPhfqjw",
+        "content": "Resolve Ariel Properties overcharging ($448.50 vs $433.33)",
+        "description": "Claims overcharging. Sent screenshots as proof. Raised at least 3 times (01/01 - 02/02/26).",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc2cgRHrgW8jw",
+        "content": "Follow up Dec 2025 unpaid invoices (5 accounts, $7,210+)",
+        "description": "Scott Kearney $2,488.50, Barnwell INC $2,065.44, Q23 LLC $1,115.48, Queensborough F $939.16, Nick Skover $602.18. All 3+ months old.",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc37RxQMFF5Mw",
+        "content": "Address Brett Wagner double HOA dues concern",
+        "description": "Says he's been paying ~$240 for 6 years and seeing doubled charges (01/03/26).",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc3jXQhxrhvQw",
+        "content": "Verify Ariel Properties landscaping fix completed",
+        "description": "Stuart admitted missed message (02/23/26), promised fix. Also mulch Ticket 282 and shrub request (10/28/25).",
+        "priority": "p2",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc3pJcCprVcjP",
+        "content": "Confirm all 9 mailing address changes were processed",
+        "description": "Samantha Waters, Taylor Lenhart, Sharon Freeman, Sarah Schettler, PLM Lake & Land, Courtney Plotner, Natalie Bluestein/NSJ LLC, Sonitrol Security, Brigade Court LLC.",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc3xWM2pmh4fP",
+        "content": "Check Periwinkle Properties portal - missing Nov reconciliation docs",
+        "description": "Missing November documents on portal (01/05/26). Also review financial statements and stucco repair quote (03/03/26).",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc5GPXr6vJmmw",
+        "content": "Ron Thayer RK Properties - plumbing impacting 6 units/4 tenants",
+        "description": "Plumbing issue reported 01/26/26. Invoice attached.",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc5Hm85Fc589P",
+        "content": "Charleston Chiropractor Center - painting schedule for 3 buildings",
+        "description": "Planning to paint back of 3 buildings (02/11/26). Also tree removal notice (01/22/26).",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-23",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc5PGhM5QwGRP",
+        "content": "Kenny Betancourt - wrong address and dues amount on portal",
+        "description": "Address showing incorrectly, wrong dues amount on portal (01/05/26).",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc5McFh73MWVw",
+        "content": "Emily Nolan - unpaid invoices (Stuart advised 10% off)",
+        "description": "Unpaid invoices thread (11/12/25). Stuart advised 10% off on resent final invoice (11/19/25). Confirm resolution.",
+        "priority": "p3",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-13",
+          "isRecurring": false
+        },
+        "checked": false
+      },
+      {
+        "id": "6g8Hc5V9Q8vjwjFw",
+        "content": "Verify older maintenance items completed",
+        "description": "Woodpecker stucco CNH Properties (11/25), window awnings Queensborough E 105 (11/21), carpet David McCann (11/19), drain backup Riparian LLC (12/17), AC platform Hear2It LLC (07/29).",
+        "priority": "p4",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
+        "parentId": "6g8HVFVCf49fMGJw",
+        "labels": [],
+        "due": {
+          "date": "2026-03-23",
+          "isRecurring": false
+        },
+        "checked": false
+      },
       {
         "id": "6cqQm9vf5R7rfFXq",
         "content": "SAM - Biz licenses",
         "description": "Regardless of municipality, most will ask for:\n\n- Legal business name\n- Doing‐Business‐As (DBA) name if applicable\n- Business physical address (within the municipality)\n- Mailing address (if different)\n- Owner(s) name(s) and contact info\n- Business type / nature of business (NAICS code in some cases)\n- Estimated gross receipts for the license year (or actual for renewals)\n- Number of employees (in some jurisdictions)\n- Registration/license numbers for special trades (e.g., contractors)\n- Proof of state registration if applicable (LLC, corporation, DBA)\n- Payment of application fee/license fee\n- Signature and date",
         "priority": "p2",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "labels": [],
         "due": null,
         "checked": false
@@ -24,8 +484,7 @@
         "content": "Biz License - Charleston/West Ashley",
         "description": "[Business License Renewals | Charleston, SC - Official Website](https://charleston-sc.gov/businesslicense)\n\nWill need\n\n- gross income or receipts, business name, address, nature of business, etc (standard for SC municipalities)",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -36,8 +495,7 @@
         "content": "Biz License - Hanahan",
         "description": "[Business Licenses](https://www.cityofhanahan.com/building-codes/page/business-licenses)\n\n- **Information typically required**: business name, address, type of business, gross receipts or estimate thereof, owner contact information, if a rental property owner (Hanahan includes rental property usage).",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -48,8 +506,7 @@
         "content": "Biz License - Goose Creek",
         "description": "[Business Licenses | The City of Goose Creek, SC](https://www.goosecreeksc.gov/government/departments/administration/business-licenses)\n\nWill need\n\n- business name, address, gross receipts estimate, business category",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -60,8 +517,7 @@
         "content": "Biz License - IOP",
         "description": "[Business Licenses | City of Isle of Palms, SC](https://www.iop.net/building-and-planning/business-licenses)\n\nWill need\n\n- business address, business name, type of business (contractor, trade, etc), registration/license number if applicable",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -72,8 +528,7 @@
         "content": "Biz License - James Island",
         "description": "[Town of James Island Business License | Town of James Island, SC](https://www.jamesislandsc.us/news/town-james-island-business-license)\n\nWill need\n\n- business name, address, nature of business, estimated gross receipts, etc",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -84,8 +539,7 @@
         "content": "Biz License - Mt Pleasant",
         "description": "[Business License Division | Mount Pleasant, SC - Official Website](https://www.tompsc.com/127/Business-License-Division)\n\n- Will need business activity (NAICS), estimated/actual gross receipts, business name, address, license type, payment of fee. (FAQ page indicates cost is determined by business activity + gross receipts)",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -96,8 +550,7 @@
         "content": "Biz License - North Charleston",
         "description": "[Welcome to City of North Charleston](https://www.northcharleston.org/business/business_licenses.php)\n\nWill need\n\n- business name, address, estimated gross receipts, nature of business, etc",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -108,8 +561,7 @@
         "content": "Biz License - Ridgeville",
         "description": "[Business Licenses & Permits | Town of Ridgeville](https://ridgevillegov.com/business-licenses-and-permits)\n\nWill need\n\n- business name, address, type of business, gross receipts estimate, contact info",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
@@ -120,38 +572,19 @@
         "content": "Biz - License - Summerville",
         "description": "[Business Licenses | Summerville, SC](https://www.summervillesc.gov/177/Business-Licenses)\n\nWill need\n\n- business name, location, type of business, gross receipts estimate, contact info",
         "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "sectionId": "6fC8vxvrjMW43VH7",
+        "projectId": "6g5r75HmGcHMHf3P",
         "parentId": "6cqQm9vf5R7rfFXq",
         "labels": [],
         "due": null,
         "checked": false
       },
       {
-        "id": "6cqQm65VFcFmhgqq",
-        "content": "Truck reg - SAM",
+        "id": "6g8HfVQCJcFpVGqP",
+        "content": "Revela Access",
+        "description": "Steph is able to log in, but no data is populated. Might need to add me to a group?",
         "priority": "p2",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "labels": [],
-        "due": null,
-        "checked": false
-      },
-      {
-        "id": "6g347Wf6mgcXQJxf",
-        "content": "Update Building Labels",
-        "priority": "p4",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "labels": [],
-        "due": null,
-        "checked": false
-      },
-      {
-        "id": "6g347qrxVCcW4PX7",
-        "content": "Print New Labels",
-        "description": "Once names and rooms have been confirmed, print new door labels.",
-        "priority": "p3",
-        "projectId": "6cwpf8hc6mJmFQM7",
-        "parentId": "6g347Wf6mgcXQJxf",
+        "projectId": "6g5r75HmGcHMHf3P",
+        "sectionId": "6g5r78ppX3x26PcP",
         "labels": [],
         "due": null,
         "checked": false

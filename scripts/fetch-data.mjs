@@ -14,7 +14,7 @@ const OUT = resolve(__dirname, '..', 'public', 'data.json');
 
 const TODOIST_TOKEN = process.env.TODOIST_API_TOKEN;
 const NOTION_TOKEN = process.env.NOTION_API_TOKEN;
-const TODOIST_PROJECT_ID = '6cwpf8hc6mJmFQM7';
+const TODOIST_PROJECT_ID = '6g5r75HmGcHMHf3P';
 
 // Notion database IDs
 const NOTION_TASKS_DB = '05d28224badc435bb8faf6ac176bdfa0';
